@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@200;300;400;500;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "titillium-semibold", Arial, sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #ecf0f3;
+}

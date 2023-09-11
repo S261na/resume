@@ -1,0 +1,12 @@
+.portfolio {
+  width: 80%;
+  margin: 4% auto;
+}
+
+.portfolio-inner {
+  display: flex;
+}
+
+.portfolio h2 {
+  font-size: 250%;
+}
