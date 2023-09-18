@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "./../../img/Kendall-logo.jpg";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,12 +12,9 @@ function Navbar() {
         <div className="menu-button"></div>
       </label>
       <ul className="menu">
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>RESUME</li>
-        <li>PORTFOLIO</li>
-        <li>BLOG</li>
-        <li>CONTACTS</li>
+        <li><NavLink to="/">HOME</NavLink></li>
+        <li><NavLink to="/portfolio">PORTFOLIO</NavLink></li>
+        <li><NavLink to="/gallery">GALLERY</NavLink></li>
       </ul>
     </section>
   );
